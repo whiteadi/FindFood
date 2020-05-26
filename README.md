@@ -13,7 +13,7 @@ And scan the QR code in the Expo client app.
 
 ## Features
 - Recipes List
-- Categories
+- CategoriesF
 - Ingredients
 - Recipes Details Screen
 - Photo Gallery

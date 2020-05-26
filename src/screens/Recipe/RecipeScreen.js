@@ -23,10 +23,10 @@ const RecipeScreen = ({ navigation }) => {
     const ingredientsMeasures = [];
     const ingredients = [];
     for (let [key, value] of Object.entries(meal)) {
-      if (key.match(/ingredient/i) && value.length !== 0) {
+      if (key.match(/ingredient/i) && value && value.length !== 0) {
         ingredientsNames.push(value);
       }
-      if (key.match(/measure/i) && value.length !== 0) {
+      if (key.match(/measure/i) && value && value.length !== 0) {
         ingredientsMeasures.push(value);
       }
       for (let i = 0; i < ingredientsNames.length; i++) {

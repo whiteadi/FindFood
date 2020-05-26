@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, Text, View, TouchableHighlight, Image } from "react-native";
+import { Text, View, TouchableHighlight, Image } from "react-native";
 import styles from "./styles";
 import MenuImage from "../../components/MenuImage/MenuImage";
 import { useRandom } from "../../data/DataAPI";
@@ -26,6 +26,7 @@ const HomeScreen = ({ navigation }) => {
           </View>
         </TouchableHighlight>
       )}
+      <Text style={styles.text}>Find Food</Text>
     </View>
   );
 };
