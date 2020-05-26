@@ -1,51 +1,44 @@
-import React from 'react';
-import { FlatList, ScrollView, Text, View, TouchableHighlight, Image } from 'react-native';
-import styles from './styles';
-import { recipes } from '../../data/dataArrays';
-import MenuImage from '../../components/MenuImage/MenuImage';
-import DrawerActions from 'react-navigation';
-import { getCategoryName } from '../../data/MockDataAPI';
+import React from "react";
+import { FlatList, Text, View, TouchableHighlight, Image } from "react-native";
+import styles from "./styles";
+import MenuImage from "../../components/MenuImage/MenuImage";
+import { useRandom } from "../../data/DataAPI";
 
-export default class HomeScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => ({
-    title: 'Home',
-    headerLeft: () => <MenuImage
+const HomeScreen = ({ navigation }) => {
+  const { meal, loading, error } = useRandom();
+
+  const onPressRecipe = (item, categoryName) => {
+    navigation.navigate("Recipe", { item, categoryName });
+  };
+
+  return (
+    <View>
+      {!loading && !error && meal && (
+        <TouchableHighlight
+          underlayColor="rgba(73,182,77,0.9)"
+          onPress={() => onPressRecipe(meal, meal.strCategory)}
+          style={{margin: 100}}
+        >
+          <View style={styles.container}>
+            <Text style={{alignSelf: 'flex-start'}}>{meal.strMeal}</Text>
+            <Image style={styles.photo} source={{ uri: meal.strMealThumb }} />            
+            <Text style={styles.category}>{meal.strCategory}</Text>
+          </View>
+        </TouchableHighlight>
+      )}
+    </View>
+  );
+};
+
+HomeScreen.navigationOptions = ({ navigation }) => ({
+  title: "Home",
+  headerLeft: () => (
+    <MenuImage
       onPress={() => {
         navigation.openDrawer();
       }}
     />
-  });
+  ),
+});
 
-  constructor(props) {
-    super(props);
-  }
-
-  onPressRecipe = item => {
-    this.props.navigation.navigate('Recipe', { item });
-  };
-
-  renderRecipes = ({ item }) => (
-    <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressRecipe(item)}>
-      <View style={styles.container}>
-        <Image style={styles.photo} source={{ uri: item.photo_url }} />
-        <Text style={styles.title}>{item.title}</Text>
-        <Text style={styles.category}>{getCategoryName(item.categoryId)}</Text>
-      </View>
-    </TouchableHighlight>
-  );
-
-  render() {
-    return (
-      <View>
-        <FlatList
-          vertical
-          showsVerticalScrollIndicator={false}
-          numColumns={2}
-          data={recipes}
-          renderItem={this.renderRecipes}
-          keyExtractor={item => `${item.recipeId}`}
-        />
-      </View>
-    );
-  }
-}
+export default HomeScreen;

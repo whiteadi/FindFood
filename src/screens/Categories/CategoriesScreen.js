@@ -1,49 +1,52 @@
-import React from 'react';
-import {
-  FlatList,
-  Text,
-  View,
-  Image,
-  TouchableHighlight
-} from 'react-native';
-import styles from './styles';
-import { categories } from '../../data/dataArrays';
-import { getNumberOfRecipes } from '../../data/MockDataAPI';
+import React from "react";
+import { FlatList, Text, View, Image, TouchableHighlight } from "react-native";
+import styles from "./styles";
+import { useCategories } from "../../data/DataAPI";
 
-export default class CategoriesScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Categories'
-  };
+const CategoriesScreen = ({ navigation }) => {
+  const { categories, loading, error } = useCategories();
 
-  constructor(props) {
-    super(props);
-  }
-
-  onPressCategory = item => {
-    const title = item.name;
+  const onPressCategory = (item) => {
+    const title = item.strCategory;
     const category = item;
-    this.props.navigation.navigate('RecipesList', { category, title });
+    navigation.navigate("RecipesList", { category, title });
   };
 
-  renderCategory = ({ item }) => (
-    <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressCategory(item)}>
+  const renderCategory = ({ item }) => (
+    <TouchableHighlight
+      underlayColor="rgba(73,182,77,0.9)"
+      onPress={() => onPressCategory(item)}
+    >
       <View style={styles.categoriesItemContainer}>
-        <Image style={styles.categoriesPhoto} source={{ uri: item.photo_url }} />
-        <Text style={styles.categoriesName}>{item.name}</Text>
-        <Text style={styles.categoriesInfo}>{getNumberOfRecipes(item.id)} recipes</Text>
+        <Image
+          style={styles.categoriesPhoto}
+          source={{ uri: item.strCategoryThumb }}
+        />
+        <Text style={styles.categoriesName}>{item.strCategory}</Text>
+        {false && (
+          <Text style={styles.categoriesInfo}>
+            {item.strCategoryDescription}
+          </Text>
+        )}
       </View>
     </TouchableHighlight>
   );
 
-  render() {
-    return (
-      <View>
+  return (
+    <View>
+      {!loading && !error && categories && (
         <FlatList
           data={categories}
-          renderItem={this.renderCategory}
-          keyExtractor={item => `${item.id}`}
+          renderItem={renderCategory}
+          keyExtractor={(item) => `${item.id}`}
         />
-      </View>
-    );
-  }
-}
+      )}
+    </View>
+  );
+};
+
+CategoriesScreen.navigationOptions = {
+  title: "Categories",
+};
+
+export default CategoriesScreen;
