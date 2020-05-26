@@ -10,21 +10,21 @@ const IngredientsDetailsScreen = ({ navigation }) => {
     navigation.navigate("Ingredient", { item });
   };
 
-  const renderIngredient = ({ item }) => (
-    <TouchableHighlight
-      underlayColor="rgba(73,182,77,0.9)"
-      onPress={() => onPressIngredient(item)}
-    >
-      <View style={styles.container}>
-        <Image
-          style={styles.photo}
-          source={{ uri: getIngredientImage(item[0]) }}
-        />
-        <Text style={styles.title}>{item[0]}</Text>
-        <Text style={{ color: "grey" }}>{item[1]}</Text>
-      </View>
-    </TouchableHighlight>
-  );
+  const renderIngredient = ({ item }) => {
+    const ingredientImage = getIngredientImage(item[0]);
+    return (
+      <TouchableHighlight
+        underlayColor="rgba(73,182,77,0.9)"
+        onPress={() => onPressIngredient(item)}
+      >
+        <View style={styles.container}>
+          <Image style={styles.photo} source={{ uri: ingredientImage }} />
+          <Text style={styles.title}>{item[0]}</Text>
+          <Text style={{ color: "grey" }}>{item[1]}</Text>
+        </View>
+      </TouchableHighlight>
+    );
+  };
 
   return (
     <View>
