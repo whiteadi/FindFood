@@ -1,18 +1,15 @@
-# Recipes App in React Native
+# Find Food Recipes App in React Native
 
-<center><a href="https://www.instamobile.io/app-templates/food-app-template/"><img src="https://www.instamobile.io/wp-content/uploads/2019/07/Screen-Shot-2019-07-22-at-8.56.44-PM.png" /></a></center>
+I used the starter kit: <a href="https://github.com/instamobile/recipes-app-react-native">Recipes App in React Native</a>, I've changed the React components from classes to functional and used hooks here and there.
 
-Download this beautiful free React Native starter kit, featuring a recipes app, to bootstrap your mobile app development. Learn React Native by working on a real project. Get familiar with various native components, navigation, redux and more.
+Also the api used is the recipes API from the <a href="https://www.themealdb.com/api.php">MealDB.</a>
 
 ## Getting Started
 To run the app, simply run
 
-``` npm install && expo start ```
+``` yarn && expo start ```
 
 And scan the QR code in the Expo client app.
-
-## Expo Demo
-<center><a href=""><img src="https://www.instamobile.io/wp-content/uploads/2019/07/Screen-Shot-2019-07-22-at-8.20.29-PM.png" /></a></center>
 
 ## Features
 - Recipes List
@@ -31,5 +28,6 @@ And scan the QR code in the Expo client app.
 - Compatible with Expo
 - Highly modularized codebase
 
+### TODO
 
-Coded with 💖💖💖 by <a href="https://www.instamobile.io/">Instamobile</a> and <a href="https://www.instakotlin.com/">Instakotlin</a>.
+- [ ] Combine ingredients with a bigger and usefull ingredients list
