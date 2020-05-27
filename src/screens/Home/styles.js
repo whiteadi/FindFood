@@ -7,11 +7,11 @@ const styles = StyleSheet.create({
   title: RecipeCard.title,
   category: RecipeCard.category,
   text: {
-    alignSelf: 'center',
-    fontSize: 37,
+    fontSize: 33,
     fontWeight: 'bold',
     textAlign: 'center',
-    fontFamily: 'Roboto'
+    fontFamily: 'Roboto',
+    alignSelf: 'stretch',
   },
 });
 
