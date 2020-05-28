@@ -61,5 +61,3 @@ typings/
 .next
 package-lock.json
 .expo/*
-.expo/packager-info.json
-.expo/settings.json
