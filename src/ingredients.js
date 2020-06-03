@@ -1735,242 +1735,237 @@ export const ingredients = [
   {
     name: "Pappardelle Pasta",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Pappardelle.jpg/260px-Pappardelle.jpg",
   },
   {
     name: "Paccheri Pasta",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/pasta-paccheri-picture-id495232014",
   },
   {
     name: "Linguine Pasta",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/carbonara-pasta-picture-id1184283717",
   },
   {
     name: "Sugar Snap Peas",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/streams-of-green-peas-on-a-white-table-picture-id1171667273",
   },
   {
     name: "Crusty Bread",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/close-up-of-crusty-loaf-of-bread-picture-id1163009076",
   },
   {
     name: "Fromage Frais",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.tasteatlas.com/images/ingredients/15e4c2a0a26041e19f282358a2aa862c.jpg?mw=1300",
   },
   {
     name: "Clams",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/open-clam-on-white-background-picture-id1152421925",
   },
   {
     name: "Passata",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/preparing-fresh-tomato-sauce-in-a-domestic-kitchen-picture-id1127973172",
   },
   {
     name: "Rapeseed Oil",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/rape-field-outdoor-picture-id937757428",
   },
   {
     name: "Stilton Cheese",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/blue-stilton-cheese-picture-id466368024",
   },
   {
     name: "Lamb Leg",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/leg-of-lamb-picture-id175396304",
   },
   {
     name: "Lamb Shoulder",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/raw-lamb-leg-isolated-on-white-picture-id1147106006",
   },
   {
     name: "Apricot",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/apricots-isolated-on-white-picture-id508898314",
   },
   {
     name: "Butternut Squash",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/butternut-squash-picture-id471688238",
   },
   {
     name: "Couscous",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/couscous-picture-id471698089",
   },
   {
     name: "Minced Beef",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/minced-chicken-or-turkey-meat-picture-id841450228",
   },
   {
     name: "Turkey Mince",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images.squarespace-cdn.com/content/v1/5a00e71a2278e7a804e532cf/1552503015322-4FZS1CUKZWEFMPVHNL9N/ke17ZwdGBToddI8pDm48kG87Sfbgg29A4BYEDq3OXvgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcf4OxbJOyh_wHUnyc4kQLQ6SBshRGOku7c30Y_IRDNPta8R2IY5BHMaEj1zOWoDTZ/halal-turkey-mince-breast-meat-online.jpg",
   },
   {
     name: "Barbeque Sauce",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/barbeque-sauce-picture-id521294143",
   },
   {
     name: "Sweetcorn",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/corn-picture-id134173335",
   },
   {
     name: "Goose Fat",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/lard-in-a-ceramic-bowl-picture-id460521709",
   },
   {
     name: "Duck Fat",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://d3l6n8hsebkot8.cloudfront.net/images/products/11/LN_505816_BP_11.jpg",
   },
   {
     name: "Fennel",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/vegetables-fennel-isolated-on-white-background-picture-id183802840",
   },
   {
     name: "Red Wine Vinegar",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://i5.walmartimages.ca/images/Enlarge/468/614/6000200468614.jpg",
   },
   {
     name: "Haricot Beans",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/kidney-beans-in-a-white-background-picture-id535939107",
   },
   {
     name: "Rosemary",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/fresh-rosemary-bunch-isolated-on-white-background-picture-id1134012204",
   },
   {
     name: "Butter Beans",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/whole-and-half-cocoa-pod-with-raw-beans-isolated-on-white-background-picture-id1156119762",
   },
   {
     name: "Pinto Beans",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/dry-pinto-beans-isolated-on-white-background-picture-id1035141588",
   },
   {
     name: "Tomato Sauce",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
-  },
-  {
-    name: "Tomato Sauce",
-    image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2014/10/09/20/02/tomato-soup-482403__340.jpg",
   },
   {
     name: "Mascarpone",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/traditional-mascarpone-cheese-in-wooden-bowl-on-table-picture-id1129676506",
   },
   {
     name: "Mozzarella",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/buffalo-mozzarella-picture-id181151637",
   },
   {
     name: "Ricotta",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2019/11/15/13/01/ricotta-4628369__340.jpg",
   },
   {
     name: "Dried Apricots",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/19/08/03/the-apricot-1838215__340.jpg",
   },
   {
     name: "Capers",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/ingredients-capers-isolated-on-white-background-picture-id1152437789",
   },
   {
     name: "Banana",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/banana-picture-id1163872578",
   },
   {
     name: "Raspberries",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2018/06/04/23/42/raspberry-3454504__340.jpg",
   },
   {
     name: "Blueberries",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2015/07/28/16/31/blueberries-864628__340.jpg",
   },
   {
     name: "Walnuts",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2016/10/13/22/52/walnut-1739021__340.jpg",
   },
   {
     name: "Pecan Nuts",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2016/02/22/03/48/pecans-1214703__340.jpg",
   },
   {
     name: "Maple Syrup",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2017/04/15/09/43/maple-2232088__340.jpg",
   },
   {
     name: "Light Brown Soft Sugar",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/51AXSpuiU4L.jpg",
   },
   {
     name: "Dark Brown Soft Sugar",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/51nW8oz%2BJnL._AC_.jpg",
   },
   {
     name: "Dark Chocolate Chips",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/chocolate-chips-picture-id182844387",
   },
   {
     name: "Milk Chocolate",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2015/11/23/11/57/hot-chocolate-1058197__340.jpg",
   },
   {
     name: "Dark Chocolate",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2016/04/06/19/05/chocolate-1312524__340.jpg",
   },
   {
     name: "Pumpkin",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2019/09/05/18/20/pumpkin-4454745__340.jpg",
   },
   {
     name: "Shortcrust Pastry",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2017/11/14/10/15/dough-2948028__340.jpg",
   },
   {
     name: "Peanut Cookies",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://assets.epicurious.com/photos/583f24bae5ba7cdd0eb881fa/6:4/w_620%2Ch_413/peanut-cookies.jpg",
   },
   {
     name: "Gelatine Leafs",
