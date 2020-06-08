@@ -2570,246 +2570,246 @@ export const ingredients = [
   {
     name: "White Wine Vinegar",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/81a9i3fCB4L._SL1500_.jpg",
   },
   {
     name: "Smoked Salmon",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61c4ptxySCL._SL1000_.jpg",
   },
   {
     name: "Mars Bar",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2016/10/12/19/27/candy-bar-1735569__340.jpg",
   },
   {
     name: "Rice Krispies",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://www.kelloggs.co.uk/content/dam/europe/kelloggs_gb/images/ricekrispies.png",
   },
   {
     name: "Ancho Chillies",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.thespicery.com/media/catalog/product/optimized/7/5/750c2315ef49cc79ae70dfe65753f843dfe429aade08feb8b296fcf1916ced38/ancho_whole.png",
   },
   {
     name: "Almond Milk",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2017/08/06/17/41/milk-2594538__340.jpg",
   },
   {
     name: "Allspice",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2015/08/13/18/47/spices-887348__340.jpg",
   },
   {
     name: "Almond Extract",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://www.cooksinfo.com/wp-content/uploads/almond-extract.jpg",
   },
   {
     name: "Tripe",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://norecipes.com/wp-content/uploads/2009/03/tripe.1024x1024.jpg",
   },
   {
     name: "Goat Meat",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Goat_chops.jpg/1280px-Goat_chops.jpg",
   },
   {
     name: "Black Beans",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/black-beans-royalty-free-image-914464994-1537885642.jpg",
   },
   {
     name: "Anchovy Fillet",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/anchovy-fillet-on-white-background-picture-id465076209",
   },
   {
     name: "Ras el hanout",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ras.el.hanout.jpg/1280px-Ras.el.hanout.jpg",
   },
   {
     name: "Filo Pastry",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Baklava.jpg",
   },
   {
     name: "Orange Blossom Water",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71Wy2dYujdL._SL1500_.jpg",
   },
   {
     name: "Candied Peel",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://www.wikihow.com/images/thumb/f/f3/Make-Candied-Orange-Peel-Step-18.jpg/aid1385090-v4-728px-Make-Candied-Orange-Peel-Step-18.jpg",
   },
   {
     name: "Grand Marnier",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61OMnaOUVoL._AC_SL1365_.jpg",
   },
   {
     name: "Sherry",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2018/04/25/14/30/wine-3349701_960_720.jpg",
   },
   {
     name: "Rose water",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/81hGVbI-AeL._SL1500_.jpg",
   },
   {
     name: "Mixed Spice",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2016/12/17/18/49/pepper-1914117__340.jpg",
   },
   {
     name: "Mincemeat",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/minced-meat-pork-beef-forcemeat-clipping-path-isolated-on-white-full-picture-id1180170597",
   },
   {
     name: "Sweet Potatoes",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2010/12/13/09/51/sweet-1807__340.jpg",
   },
   {
     name: "Bread Rolls",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2018/06/10/20/30/bread-3467243__340.jpg",
   },
   {
     name: "Bun",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://www.handletheheat.com/wp-content/uploads/2015/03/Burger-Buns-02-square.jpg",
   },
   {
     name: "Potatoe Buns",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://niftyrecipe.com/content/recipes/396/main_b_russian-potato-buns.jpg",
   },
   {
     name: "Ground Pork",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://az836796.vo.msecnd.net/media/image/product/en/large/0021343800000.jpg",
   },
   {
     name: "Pork Chops",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2019/06/10/15/42/chop-4264609__340.jpg",
   },
   {
     name: "Yukon Gold Potatoes",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61jf7%2BjvVFL._AC_SL1000_.jpg",
   },
   {
     name: "Yellow Onion",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2013/02/21/19/14/onion-bulbs-84722__340.jpg",
   },
   {
     name: "Beef Stock Concentrate",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/81CAdnjR4KL._SL1500_.jpg",
   },
   {
     name: "Chicken Stock Concentrate",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/81KTXf%2B8hWL._SL1500_.jpg",
   },
   {
     name: "Persian Cucumber",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://www.specialtyproduce.com/sppics/9121.png",
   },
   {
     name: "Mayonnaise",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://img1.jamieoliver.com/jamieoliver/recipe-database/oldImages/xtra_med/911_1_1439208219.jpg",
   },
   {
     name: "Sriracha",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/PixelatedHuyFongSriracha.jpg/1920px-PixelatedHuyFongSriracha.jpg",
   },
   {
     name: "Rhubarb",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2012/08/11/14/27/rhubarb-54085__340.jpg",
   },
   {
     name: "Pita Bread",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2020/06/01/15/37/tortillas-5247110__340.jpg",
   },
   {
     name: "Bulgur Wheat",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.britannica.com/30/198730-050-379C759D/bulgur-cereal-food-wheat-groats.jpg",
   },
   {
     name: "Quinoa",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2014/07/30/18/37/quinoa-405538__340.jpg",
   },
   {
     name: "Dill Pickles",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://img1.jamieoliver.com/jamieoliver/recipe-database/xtra_med/6KPZ51KNqAv9GsPOJymjV9.jpg?tr=w-400",
   },
   {
     name: "Sesame Seed Burger Buns",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://www.seriouseats.com/recipes/images/2012/06/201212-209977-knead-book-hamburger-buns.JPG",
   },
   {
     name: "Buns",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2016/03/05/19/23/bread-1238384__340.jpg",
   },
   {
     name: "Iceberg Lettuce",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2018/06/29/07/26/salad-3505392__340.jpg",
   },
   {
     name: "Gherkin Relish",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "http://www.topwinfoods.com/Uploads/5c9338f4b64cc6873.jpg",
   },
   {
     name: "Cheese Slices",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://media.istockphoto.com/photos/cheddar-cheese-slices-close-up-picture-id860443700?s=2048x2048",
   },
   {
     name: "Shortening",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/918QnKVXHRL._AC_SL1500_.jpg",
   },
   {
     name: "Warm Water",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://www.spreadthetalks.com/img/uploads/article_images/big/1518073193_12-1.jpg",
   },
   {
     name: "Boiling Water",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://cdn.pixabay.com/photo/2015/02/28/15/38/kettle-653673__340.jpg",
   },
   {
     name: "Pickle Juice",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/810xYWGeveL._SL1500_.jpg",
   },
   {
     name: "Powdered Sugar",
     image:
-      "https://static8.depositphotos.com/1480295/977/i/450/depositphotos_9771526-stock-photo-thai-food-ingredients.jpg",
+      "https://rainydayfoods.com/pub/media/catalog/product/cache/3ec92327a17435c263395058aef68823/p/o/powderedsugarbc.jpg",
   },
 ];
