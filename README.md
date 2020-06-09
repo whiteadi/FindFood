@@ -4,6 +4,8 @@ I used the starter kit: <a href="https://github.com/instamobile/recipes-app-reac
 
 Also the api used is the recipes API from the <a href="https://www.themealdb.com/api.php">MealDB.</a>
 
+I used the list of ingredients from MealDB and added myself <a href="https://github.com/whiteadi/FindFood/blob/master/src/ingredients.js">images</a> for all. (feeback on that welcomed)
+
 ## Getting Started
 To run the app, simply run
 
@@ -14,7 +16,7 @@ And scan the QR code in the Expo client app.
 ## Features
 - Recipes List
 - CategoriesF
-- Ingredients
+- Ingredients (<a href="https://github.com/whiteadi/FindFood/blob/master/src/ingredients.js">new json with images</a>)
 - Recipes Details Screen
 - Photo Gallery
 - Detailed Description
@@ -30,4 +32,6 @@ And scan the QR code in the Expo client app.
 
 ### TODO
 
-- [ ] Combine ingredients with a bigger and usefull ingredients list
+- [x] Combine ingredients with a bigger and usefull ingredients list
+
+
