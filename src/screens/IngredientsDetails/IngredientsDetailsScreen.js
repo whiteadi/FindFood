@@ -34,7 +34,7 @@ const IngredientsDetailsScreen = ({ navigation }) => {
         numColumns={3}
         data={ingredientsArray}
         renderItem={renderIngredient}
-        keyExtractor={(item) => `${item.recipeId}`}
+        keyExtractor={(item) => item[0]}
       />
     </View>
   );

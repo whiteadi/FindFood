@@ -17,9 +17,7 @@ const IngredientScreen = ({ navigation }) => {
   const ingredientName = ingredient[0];
   const { recipes, loading, error } = useRecipesByIngredient(ingredientName);
 
-  const onPressRecipe = (item) => {
-    navigation.navigate("Recipe", { item });
-  };
+  const onPressRecipe = (item) => navigation.navigate("Recipe", { item });
 
   const renderRecipes = ({ item }) => (
     <TouchableHighlight
@@ -62,7 +60,7 @@ const IngredientScreen = ({ navigation }) => {
             numColumns={2}
             data={recipes}
             renderItem={renderRecipes}
-            keyExtractor={(item) => `${item.recipeId}`}
+            keyExtractor={(item) => item.idMeal}
           />
         </View>
       )}
