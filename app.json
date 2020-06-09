@@ -4,7 +4,6 @@
     "slug": "findfood-recipes-app",
     "description": "React Native Recipes App",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
