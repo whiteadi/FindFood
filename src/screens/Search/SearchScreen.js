@@ -9,8 +9,8 @@ const SearchScreen = ({ navigation }) => {
   const [value, _setValue] = useState("");
   const [data, _setData] = useState([]);
   const recipesByName = useRecipes("useRecipesByName", value);
-  const { recipesByCategory } = useRecipes("useRecipesByCategory", value);
-  const { recipesByIngredient } = useRecipes("useRecipesByIngredient", value);
+  const recipesByCategory = useRecipes("useRecipesByCategory", value);
+  const recipesByIngredient = useRecipes("useRecipesByIngredient", value);
 
   const valueRef = useRef(value);
   const setValue = (data) => {
