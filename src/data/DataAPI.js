@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { API_URL, API_KEY } from "../constants";
 
 export const useCategories = () => {
@@ -26,33 +26,6 @@ export const useCategories = () => {
   }, []);
 
   return { categories, isLoading, isError };
-};
-
-export const useRecipes = (strCategory) => {
-  const [recipes, setRecipes] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [isError, setIsError] = useState(false);
-  useEffect(() => {
-    const fetchData = async () => {
-      setIsError(false);
-      setIsLoading(true);
-      try {
-        const urlString = `${API_URL}/${API_KEY}/filter.php?c=${strCategory}&test=1`;
-        const url = new URL(urlString);
-        let response = await fetch(url, {
-          method: "GET",
-        });
-        let data = await response.json();
-        setRecipes(data.meals);
-      } catch (error) {
-        setIsError(true);
-      }
-      setIsLoading(false);
-    };
-    fetchData();
-  }, [strCategory]);
-
-  return { recipes, isLoading, isError };
 };
 
 export const useCategory = (strCategory) => {
@@ -141,56 +114,72 @@ export const useRandom = () => {
   return { meal, isLoading, isError };
 };
 
-export const useRecipesByIngredient = (ingredientName) => {
-  const [recipes, setRecipes] = useState([]);
+export const useRecipes = (type, theValue) => {
+  const [data, setRecipesData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
+
+  const useRecipesByCategory = useCallback(async (strCategory) => {
+    setIsError(false);
+    setIsLoading(true);
+    try {
+      const urlString = `${API_URL}/${API_KEY}/filter.php?c=${strCategory}&test=1`;
+      const url = new URL(urlString);
+      let response = await fetch(url, {
+        method: "GET",
+      });
+      let data = await response.json();
+      setRecipesData(data.meals);
+    } catch (error) {
+      setIsError(true);
+    }
+    setIsLoading(false);
+  });
+
+  const useRecipesByIngredient = useCallback(async (ingredientName) => {
+    setIsError(false);
+    setIsLoading(true);
+    try {
+      const urlString = `${API_URL}/${API_KEY}/filter.php?i=${ingredientName}&test=1`;
+      const url = new URL(urlString);
+      let response = await fetch(url, {
+        method: "GET",
+      });
+      let data = await response.json();
+      setRecipesData(data.meals);
+    } catch (error) {
+      setIsError(true);
+    }
+    setIsLoading(false);
+  });
+
+  const useRecipesByName = useCallback(async (name) => {
+    setIsError(false);
+    setIsLoading(true);
+    try {
+      const urlString = `${API_URL}/${API_KEY}/search.php?s=${name}&test=1`;
+      const url = new URL(urlString);
+      let response = await fetch(url, {
+        method: "GET",
+      });
+      let data = await response.json();
+      setRecipesData(data.meals);
+    } catch (error) {
+      setIsError(true);
+    }
+    setIsLoading(false);
+  });
+
+  const methdos = {
+    useRecipesByCategory: useRecipesByCategory,
+    useRecipesByIngredient: useRecipesByIngredient,
+    useRecipesByName: useRecipesByName,
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      setIsError(false);
-      setIsLoading(true);
-      try {
-        const urlString = `${API_URL}/${API_KEY}/filter.php?i=${ingredientName}&test=1`;
-        const url = new URL(urlString);
-        let response = await fetch(url, {
-          method: "GET",
-        });
-        let data = await response.json();
-        setRecipes(data.meals);
-      } catch (error) {
-        setIsError(true);
-      }
-      setIsLoading(false);
-    };
-    fetchData();
-  }, [ingredientName]);
+    const method = methdos[type];
+    method(theValue);
+  }, [type, theValue]);
 
-  return { recipes, isLoading, isError };
-};
-
-export const useRecipesByName = (name) => {
-  const [recipes, setRecipes] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [isError, setIsError] = useState(false);
-  useEffect(() => {
-    const fetchData = async () => {
-      setIsError(false);
-      setIsLoading(true);
-      try {
-        const urlString = `${API_URL}/${API_KEY}/search.php?s=${name}&test=1`;
-        const url = new URL(urlString);
-        let response = await fetch(url, {
-          method: "GET",
-        });
-        let data = await response.json();
-        setRecipes(data.meals);
-      } catch (error) {
-        setIsError(true);
-      }
-      setIsLoading(false);
-    };
-    fetchData();
-  }, [name]);
-
-  return { recipes, isLoading, isError };
+  return { data, isLoading, isError };
 };

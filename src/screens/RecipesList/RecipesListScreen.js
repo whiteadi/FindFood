@@ -6,7 +6,10 @@ import { useRecipes } from "../../data/DataAPI";
 const RecipesListScreen = ({ navigation }) => {
   const item = navigation.getParam("category");
   const categoryName = item.strCategory;
-  const { recipes, loading, error } = useRecipes(item.strCategory);
+  const { data, isLoading, isError} = useRecipes(
+    "useRecipesByCategory",
+    item.strCategory
+  );
 
   const onPressRecipe = (item) => {
     navigation.navigate("Recipe", { item, categoryName });
@@ -27,12 +30,12 @@ const RecipesListScreen = ({ navigation }) => {
 
   return (
     <View>
-      {!loading && !error && recipes && (
+      {!isLoading && !isError && data && (
         <FlatList
           vertical
           showsVerticalScrollIndicator={false}
           numColumns={2}
-          data={recipes}
+          data={data}
           renderItem={renderRecipes}
           keyExtractor={(item) => `${item.strMeal}`}
         />

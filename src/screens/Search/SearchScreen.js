@@ -3,22 +3,14 @@ import { FlatList, Text, View, Image, TouchableHighlight } from "react-native";
 import styles from "./styles";
 import { SearchBar } from "react-native-elements";
 import MenuImage from "../../components/MenuImage/MenuImage";
-import {
-  useRecipesByName,
-  useRecipesByIngredient,
-  useRecipes,
-} from "../../data/DataAPI";
+import { useRecipes } from "../../data/DataAPI";
 
 const SearchScreen = ({ navigation }) => {
   const [value, _setValue] = useState("");
   const [data, _setData] = useState([]);
-  const { recipes, loadingbyName, errorName } = useRecipesByName(value);
-  const { recipeArray2, loadingByCat, errorCat } = useRecipes(value);
-  const {
-    recipeArray3,
-    loadingByIngredient,
-    erroringredient,
-  } = useRecipesByIngredient(value);
+  const recipesByName = useRecipes("useRecipesByName", value);
+  const { recipesByCategory } = useRecipes("useRecipesByCategory", value);
+  const { recipesByIngredient } = useRecipes("useRecipesByIngredient", value);
 
   const valueRef = useRef(value);
   const setValue = (data) => {
@@ -43,11 +35,23 @@ const SearchScreen = ({ navigation }) => {
     if (
       text &&
       text.length > 2 &&
-      ((!loadingbyName && !errorName && recipes) ||
-        (!loadingByCat && !errorCat && recipeArray2) ||
-        (!loadingByIngredient && !erroringredient && recipeArray3))
+      ((!recipesByName.isLoading &&
+        !recipesByName.isError &&
+        recipesByName &&
+        recipesByName.data) ||
+        (!recipesByCategory.isLoading &&
+          !recipesByCategory.isError &&
+          recipesByCategory &&
+          recipesByCategory.data) ||
+        (!recipesByIngredient.isLoading &&
+          !recipesByIngredient.isError &&
+          recipesByIngredient &&
+          recipesByIngredient.data))
     ) {
-      const aux = recipes.concat(recipeArray2).concat(recipeArray3);
+      const r1 = (recipesByName && recipesByName.data) || [];
+      const r2 = (recipesByCategory && recipesByCategory.data) || [];
+      const r3 = (recipesByIngredient && recipesByIngredient.data) || [];
+      const aux = r1.concat(r2).concat(r3);
       const recipeArray = [...new Set(aux)];
       const dataToSet = text === "" ? [] : recipeArray;
       setData(dataToSet);
@@ -89,14 +93,14 @@ const SearchScreen = ({ navigation }) => {
 SearchScreen.navigationOptions = ({ navigation }) => {
   const { params = {} } = navigation.state;
   return {
-    headerRight: (
+    headerRight: () => (
       <MenuImage
         onPress={() => {
           navigation.openDrawer();
         }}
       />
     ),
-    headerTitle: (
+    headerTitle: () => (
       <SearchBar
         containerStyle={{
           backgroundColor: "transparent",
