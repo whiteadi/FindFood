@@ -8,14 +8,14 @@ import {
   TouchableHighlight,
 } from "react-native";
 import styles from "./styles";
-import { useRecipesByIngredient } from "../../data/DataAPI";
+import { useRecipes } from "../../data/DataAPI";
 import { getIngredientImage } from "../../constants";
 
 const IngredientScreen = ({ navigation }) => {
   const ingredient = navigation.getParam("item");
   const ingredientUrl = getIngredientImage(ingredient[0]);
   const ingredientName = ingredient[0];
-  const { recipes, loading, error } = useRecipesByIngredient(ingredientName);
+  const recipes = useRecipes("useRecipesByIngredient", ingredientName);
 
   const onPressRecipe = (item) => navigation.navigate("Recipe", { item });
 
@@ -52,13 +52,13 @@ const IngredientScreen = ({ navigation }) => {
         />
       </View>
       <Text style={styles.ingredientInfo}>Recipes with {ingredientName}:</Text>
-      {!loading && !error && recipes && (
+      {!recipes.isLoading && !recipes.isError && recipes && recipes.data && (
         <View>
           <FlatList
             vertical
             showsVerticalScrollIndicator={false}
             numColumns={2}
-            data={recipes}
+            data={recipes.data}
             renderItem={renderRecipes}
             keyExtractor={(item) => item.idMeal}
           />
